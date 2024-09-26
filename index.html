@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CortiArte A.G</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Corti-Arte A.G</h1>
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+            <div class="container-cart-products hidden-cart">
+                <div class="cart-empty">El carrito esta vacio</div>
+                <div class="row-product"></div>
+                <div class="cart-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="image/abejas.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño abejas</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="image/azul gato.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño gatos</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/alces navidad.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño alces</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/alces verdes.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño alces verdes</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/azul oscuro.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño azul oscuro</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/blanco (1).jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño blanco</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/buho.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño buhos</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/cafe.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño cafe</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/flores negras.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño flores negras</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/gatos.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño gatos</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/gris.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño gris</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/juego de baño azul.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño azul</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/juego de baño flores.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño flores</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/muñecos de nieve.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2> muñecos de nieve</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/sapos rojos.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño sapos rojos</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/sapos.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño sapos verdes</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/verde naranja.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño verde naranja</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/verde con rojo.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño verde y rojo</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/rojo blanco.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño rojo y blanco</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/azul con gris.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño azul y cafe</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/naranja verde.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño naranja y verde</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/negro amarillo.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño negro y amarillo</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/blanco negro.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño negro y cafe</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/verde negro.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño verde y negro</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/rosado.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño rosado y blanco</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/sapos oscuros.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño sapos oscuros</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/sapos naranjas.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño sapos naranjas</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/rojo oscuro.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño rojo con blanco</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/sapos claro.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño verde claro</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/alce rojo.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño alce</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/alcer rojo verde.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño alce verde y rojo</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/naranja negro.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño naranja y negro</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/buhos 2.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>juego de baño buho</h2>
+                <p class="price">$32.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/licuadora azul.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>licuadora azul</h2>
+                <p class="price">$9.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/licuadora cafe.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>licuadora cafe</h2>
+                <p class="price">$9.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/licuadora gris.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>licuadora negro</h2>
+                <p class="price">$9.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/licuadora n.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>licuadora naranja</h2>
+                <p class="price">$9.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/licuadora rojo.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>licuadora rojo con blanco</h2>
+                <p class="price">$9.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+		<div class="item">
+            <figure>
+                <img src="image/licuadora v.jpeg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>licuadora verde</h2>
+                <p class="price">$9.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <!-- Más productos aquí -->
+    </div>
+    <script src="index.js"></script>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; Corti-Arte A.G</p>
+            <p>Contacto: Jorge Guzman +57 302 3534663 y +57 313 3385618</p>
+            <p>Contacto: Consuelo Jimenez +57 312 5876875</p>
+            <button class="btn-contact" onclick="window.location.href='https://www.instagram.com/corti_arte_/'">
+                Contáctenos
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
